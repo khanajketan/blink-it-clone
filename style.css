@@ -26,6 +26,7 @@ nav{
     top: 0;
     border-bottom: 1px solid rgb(246, 244, 244);
     margin-top: 40px;
+    padding: 60px;
 }
 nav h2{
     font-size: 20px;
@@ -99,10 +100,11 @@ hr{
    grid-template-rows: repeat(2, 1fr);
 }
 #section3 img{
-    width: 130px;
+    width: 100px;
 }
-#section{
+#section4{
     display: flex;
+    gap: 20px;
     flex-direction: column;
 }
 #products{
