@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+   align-items: center; 
+   gap: 20px;
+   
+}
+nav{
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    top: 0;
+    border-bottom: 1px solid rgb(246, 244, 244);
+    margin-top: 40px;
+}
+nav h2{
+    font-size: 20px;
+}
+nav h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+#login h2{
+    font-weight: 400;
+}
+#search-bar{
+    color: #bababa;
+    width: 50vw;
+    /* background-color: yellow; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 244, 244);
+    /* border: 1px solid rgb(171, 169, 169); */
+    border-radius: 10px;
+  
+}
+#search-bar svg{
+    width: 30px;
+    margin: 10px;
+}
+#my-cart button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 1000;
+    gap: 15px;
+    border: none;
+}
+#my-cart svg{
+    width: 30px;
+   
+}
+hr{
+    color: black;
+}
+.section{
+    
+    width: 80vw;
+    border-radius: 7%;
+   
+}
+#section1 img{
+    width: 80vw;
+}
+#section2{
+ display: flex;
+ justify-content: flex-start;
+   overflow: scroll;
+   
+}
+#section2 img{
+    width: 400px;
+    margin: 10px;
+}
+#section3{
+   
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+}
+#section3 img{
+    width: 130px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+}
+#products{
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 10px;
+}
+.product .product-bottom{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.product .product-bottom button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.product img{
+    width: 100px;
+}
+footer{
+   margin: 100px;
+    text-align: center;
+}
+#section4 h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+#section4 h4{
+    font-size: 12px;
+    color: #bababa;
+}
